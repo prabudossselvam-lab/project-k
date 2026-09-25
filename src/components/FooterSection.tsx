@@ -39,7 +39,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({
             <a
               href="#corridor"
               onClick={onExploreClick}
-              className="px-8 py-4 bg-[#F4511E] text-black font-bold uppercase tracking-wider hover:bg-white transition-colors flex items-center gap-2 group"
+              className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold uppercase tracking-wider transition-colors flex items-center gap-2 group shadow-lg shadow-blue-600/30"
             >
               <span>EXPLORE THE SYSTEM</span>
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
